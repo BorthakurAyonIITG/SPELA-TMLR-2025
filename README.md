@@ -48,5 +48,15 @@ We developed a class grouping mechanism for training CNNs using SPELA and showca
 
 Also in our implementation of the `Conv_Layer()` class, we batch the symmetric vectors in an appropriate manner to ensure fast computations of activations and gradients. This can be seen in the `__init__()` function.
 
-<!-- ## Citation
-> **TODO:** Add the citation here once the paper is accepted. -->
+## Citation
+```Bibtex
+@article{somasundaram2025learning,
+    title={Learning Using a Single Forward Pass},
+    author={Aditya Somasundaram and Pushkal Mishra and Ayon Borthakur},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2025},
+    url={https://openreview.net/forum?id=EDQ8QOGqjr},
+    note={}
+}
+```
